@@ -1,0 +1,42 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 1200px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.table {
+    background-color: white;
+}
+
+.alert ul {
+    margin-bottom: 0;
+}
+
+/* Melhorar a aparência dos formulários */
+.form-control, .form-select {
+    margin-bottom: 10px;
+}
+
+/* Responsividade para tabelas */
+@media (max-width: 768px) {
+    .table-responsive {
+        overflow-x: auto;
+    }
+    
+    .table td, .table th {
+        white-space: nowrap;
+    }
+}
+
+/* Estilo para o footer */
+footer {
+    margin-top: 30px;
+    padding: 20px 0;
+    border-top: 1px solid #dee2e6;
+    text-align: center;
+    color: #6c757d;
+}
